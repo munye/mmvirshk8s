@@ -1,9 +1,11 @@
-for i in master fcos-worker-{1..2}
+for i in fcos-master fcos-worker-{1..2}
 do
   virsh destroy $i
   virsh undefine $i
-  virsh pool-destroy guests
-  virsh pool-undefine guests
-  rm $PWD/var/lib/libvirt/images
-  rm $PWD/var/lib/libvirt/storage 
 done
+
+virsh pool-destroy guests
+virsh pool-undefine guests
+
+rm -f $PWD/var/lib/libvirt/images/*
+rm -f $PWD/var/lib/libvirt/storage/* 

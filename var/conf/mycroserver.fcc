@@ -4,6 +4,8 @@ passwd:
   users:
     - name: core
       password_hash: "$1$JwnOM4Dj$WRb.7Nu0whWp6dXhaNK5Y."
+      groups:
+        - docker 
       ssh_authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDl9mrf7uT8Vn7iFwidvlDyuXCLNNW4fljsMXJZWWf5CizPd0P2Evvb6Ga8ZZ5bcNDzOxf0GoC/l6yr/SY+crUl27snXpSk7UVd0zXSkPkUbRc8oq+R5DcMhFP8c+17RTOw8u8Jdrd2x8/n+Tz+6wC6zt9LodaM46labB0Dn6iIz0WHYmjJuSP64ZDWJhx7K8w8i4PlmpJKmoC54s7wF091zatcXs4poPCQOq+Fn0VVKEkDikC42csrZzupIxFJO8SBDCy179xjDFkpsgzolz8SBPLFafcKkK/HOZ2iKUa+LcoKIfikft/wW+s/lT3CFXXr0YoF5bg3YaPrSleLDeQb root@grande
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1eHrx2iBn7ONys1drCMl10NHBOh12kWY/7N0H2R/mwBDpNIyJy5ua77u9BQwOAAFRmgPWn+il7NMIzzgp6jyimNxsOacJTp1V7DsAEG6NsVWV1STlLM1PF3JoWRXOfxSyzeNpHbAPofOBaTq7pNYeYSlpiMJOYbcd/CQkCV6g77eQQvhUp8U1U3CrMNOlH3w4eeQaD7DHkSxvhgrLoM2aQzXrlzD+WxbsOu88f9JEwSeW6HzGtZ5/3AydU7S8MffnnZdqRTEFviMjOtn11DWFw/VA2mz41wh1v89nzCTTlkMGRttUM680cQOr+SpTgd3RMxHVrsOnH0ihQO55sxbD eze@laptop.eze
