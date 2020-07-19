@@ -7,5 +7,7 @@ done
 virsh pool-destroy guests
 virsh pool-undefine guests
 
-rm -f $PWD/var/lib/libvirt/images/*
+#rm -f $PWD/var/lib/libvirt/images/*
 rm -f $PWD/var/lib/libvirt/storage/* 
+
+rm -rf $PWD/kubespray
