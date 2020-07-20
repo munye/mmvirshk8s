@@ -7,7 +7,7 @@ passwd:
       groups:
         - docker 
       ssh_authorized_keys:
-        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDl9mrf7uT8Vn7iFwidvlDyuXCLNNW4fljsMXJZWWf5CizPd0P2Evvb6Ga8ZZ5bcNDzOxf0GoC/l6yr/SY+crUl27snXpSk7UVd0zXSkPkUbRc8oq+R5DcMhFP8c+17RTOw8u8Jdrd2x8/n+Tz+6wC6zt9LodaM46labB0Dn6iIz0WHYmjJuSP64ZDWJhx7K8w8i4PlmpJKmoC54s7wF091zatcXs4poPCQOq+Fn0VVKEkDikC42csrZzupIxFJO8SBDCy179xjDFkpsgzolz8SBPLFafcKkK/HOZ2iKUa+LcoKIfikft/wW+s/lT3CFXXr0YoF5bg3YaPrSleLDeQb root@grande
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2vL+IyQxnBMfImKClmz/g5984775nLOlwvCuMOA11vhvhDE7PBT8rfLDLnlmQTLFJBJH8JvS6PMqhdCAqiIpcLQu/PRYdl+mC2y+z6DJcOxtRMvBOze6FYwTmkMEssRoBk/qI/jQHUhKHUNcIjoaopiFjYxyim7BW8iTwFS+NxUOlnMv61i4P1Nz3KAi35R/aFADXq/ZLZm9HDzxw6124CiCnWxaw73SJs73GSAwqcsMV11RtZmxv5TomjITQ5GLwahHdPFqD6qrSioMPxJMGt54LVieRwI/LvMIf8dfC+sTcfNFkOGaowlOOBi6i0aRAT0w7az8FBcaA2E4tquxr eze@grande
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1eHrx2iBn7ONys1drCMl10NHBOh12kWY/7N0H2R/mwBDpNIyJy5ua77u9BQwOAAFRmgPWn+il7NMIzzgp6jyimNxsOacJTp1V7DsAEG6NsVWV1STlLM1PF3JoWRXOfxSyzeNpHbAPofOBaTq7pNYeYSlpiMJOYbcd/CQkCV6g77eQQvhUp8U1U3CrMNOlH3w4eeQaD7DHkSxvhgrLoM2aQzXrlzD+WxbsOu88f9JEwSeW6HzGtZ5/3AydU7S8MffnnZdqRTEFviMjOtn11DWFw/VA2mz41wh1v89nzCTTlkMGRttUM680cQOr+SpTgd3RMxHVrsOnH0ihQO55sxbD eze@laptop.eze
     - name: k8s
       password_hash: "$1$JwnOM4Dj$WRb.7Nu0whWp6dXhaNK5Y."
@@ -16,7 +16,7 @@ passwd:
         - wheel
         - docker 
       ssh_authorized_keys:
-        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDl9mrf7uT8Vn7iFwidvlDyuXCLNNW4fljsMXJZWWf5CizPd0P2Evvb6Ga8ZZ5bcNDzOxf0GoC/l6yr/SY+crUl27snXpSk7UVd0zXSkPkUbRc8oq+R5DcMhFP8c+17RTOw8u8Jdrd2x8/n+Tz+6wC6zt9LodaM46labB0Dn6iIz0WHYmjJuSP64ZDWJhx7K8w8i4PlmpJKmoC54s7wF091zatcXs4poPCQOq+Fn0VVKEkDikC42csrZzupIxFJO8SBDCy179xjDFkpsgzolz8SBPLFafcKkK/HOZ2iKUa+LcoKIfikft/wW+s/lT3CFXXr0YoF5bg3YaPrSleLDeQb root@grande
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2vL+IyQxnBMfImKClmz/g5984775nLOlwvCuMOA11vhvhDE7PBT8rfLDLnlmQTLFJBJH8JvS6PMqhdCAqiIpcLQu/PRYdl+mC2y+z6DJcOxtRMvBOze6FYwTmkMEssRoBk/qI/jQHUhKHUNcIjoaopiFjYxyim7BW8iTwFS+NxUOlnMv61i4P1Nz3KAi35R/aFADXq/ZLZm9HDzxw6124CiCnWxaw73SJs73GSAwqcsMV11RtZmxv5TomjITQ5GLwahHdPFqD6qrSioMPxJMGt54LVieRwI/LvMIf8dfC+sTcfNFkOGaowlOOBi6i0aRAT0w7az8FBcaA2E4tquxr eze@grande
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1eHrx2iBn7ONys1drCMl10NHBOh12kWY/7N0H2R/mwBDpNIyJy5ua77u9BQwOAAFRmgPWn+il7NMIzzgp6jyimNxsOacJTp1V7DsAEG6NsVWV1STlLM1PF3JoWRXOfxSyzeNpHbAPofOBaTq7pNYeYSlpiMJOYbcd/CQkCV6g77eQQvhUp8U1U3CrMNOlH3w4eeQaD7DHkSxvhgrLoM2aQzXrlzD+WxbsOu88f9JEwSeW6HzGtZ5/3AydU7S8MffnnZdqRTEFviMjOtn11DWFw/VA2mz41wh1v89nzCTTlkMGRttUM680cQOr+SpTgd3RMxHVrsOnH0ihQO55sxbD eze@laptop.eze
     - name: eze
       password_hash: "$1$JwnOM4Dj$WRb.7Nu0whWp6dXhaNK5Y."
@@ -25,5 +25,5 @@ passwd:
         - wheel
         - docker 
       ssh_authorized_keys:
-        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDl9mrf7uT8Vn7iFwidvlDyuXCLNNW4fljsMXJZWWf5CizPd0P2Evvb6Ga8ZZ5bcNDzOxf0GoC/l6yr/SY+crUl27snXpSk7UVd0zXSkPkUbRc8oq+R5DcMhFP8c+17RTOw8u8Jdrd2x8/n+Tz+6wC6zt9LodaM46labB0Dn6iIz0WHYmjJuSP64ZDWJhx7K8w8i4PlmpJKmoC54s7wF091zatcXs4poPCQOq+Fn0VVKEkDikC42csrZzupIxFJO8SBDCy179xjDFkpsgzolz8SBPLFafcKkK/HOZ2iKUa+LcoKIfikft/wW+s/lT3CFXXr0YoF5bg3YaPrSleLDeQb root@grande
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2vL+IyQxnBMfImKClmz/g5984775nLOlwvCuMOA11vhvhDE7PBT8rfLDLnlmQTLFJBJH8JvS6PMqhdCAqiIpcLQu/PRYdl+mC2y+z6DJcOxtRMvBOze6FYwTmkMEssRoBk/qI/jQHUhKHUNcIjoaopiFjYxyim7BW8iTwFS+NxUOlnMv61i4P1Nz3KAi35R/aFADXq/ZLZm9HDzxw6124CiCnWxaw73SJs73GSAwqcsMV11RtZmxv5TomjITQ5GLwahHdPFqD6qrSioMPxJMGt54LVieRwI/LvMIf8dfC+sTcfNFkOGaowlOOBi6i0aRAT0w7az8FBcaA2E4tquxr eze@grande
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1eHrx2iBn7ONys1drCMl10NHBOh12kWY/7N0H2R/mwBDpNIyJy5ua77u9BQwOAAFRmgPWn+il7NMIzzgp6jyimNxsOacJTp1V7DsAEG6NsVWV1STlLM1PF3JoWRXOfxSyzeNpHbAPofOBaTq7pNYeYSlpiMJOYbcd/CQkCV6g77eQQvhUp8U1U3CrMNOlH3w4eeQaD7DHkSxvhgrLoM2aQzXrlzD+WxbsOu88f9JEwSeW6HzGtZ5/3AydU7S8MffnnZdqRTEFviMjOtn11DWFw/VA2mz41wh1v89nzCTTlkMGRttUM680cQOr+SpTgd3RMxHVrsOnH0ihQO55sxbD eze@laptop.eze
