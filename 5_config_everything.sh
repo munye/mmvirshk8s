@@ -14,6 +14,6 @@ ip_2_env
 KUBESPRAY_HOME=$PWD/kubespray/
 cd $KUBESPRAY_HOME
 cp -rfp $KUBESPRAY_HOME/inventory/sample $KUBESPRAY_HOME/inventory/mycluster
-CONFIG_FILE=$KUBESPRAY_HOME/inventory/mycluster/hosts.yaml 
+export CONFIG_FILE=$KUBESPRAY_HOME/inventory/mycluster/hosts.yaml 
 python3 $KUBESPRAY_HOME/contrib/inventory_builder/inventory.py ${IPS[@]}
 cd ..
