@@ -1,4 +1,4 @@
-for i in fcos-master fcos-worker-{1..2}
+for i in fcos-teta fcos-master fcos-worker-{1..2}
 do
   virsh destroy $i
   virsh undefine $i
@@ -7,7 +7,14 @@ done
 virsh pool-destroy guests
 virsh pool-undefine guests
 
-#rm -f $PWD/var/lib/libvirt/images/*
+virsh pool-destroy images
+virsh pool-undefine images
+
 rm -f $PWD/var/lib/libvirt/storage/* 
+#rm -f $PWD/var/lib/libvirt/images/*
+
+sudo virsh net-destroy otranet
+sudo virsh net-undefine otranet
+rm -f nat225.xml
 
 rm -rf $PWD/kubespray
