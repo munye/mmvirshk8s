@@ -1,12 +1,2 @@
 host_key_checking = False
-
-
-
-
-
-
-
-
-
 timeout = 30
-
